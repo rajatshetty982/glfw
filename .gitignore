@@ -102,3 +102,5 @@ tests/triangle-vulkan
 tests/window
 tests/windows
 
+src/xdg-*-protocol.c
+src/xdg-*-client-protocol.h
