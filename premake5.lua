@@ -29,10 +29,12 @@ defines({ "_GLFW_WIN32" })
 files({ "src/win32_*.c", "src/wgl_context.c", "src/directm_joystick.c" })
 
 filter("system:linux")
+pic("On")
 defines({
 	"_GLFW_X11",
 	-- "_GLFW_WAYLAND"
 })
+
 files({
 	"src/x11_*.c",
 	"src/wl_*.c",
